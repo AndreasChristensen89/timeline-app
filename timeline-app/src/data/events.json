@@ -1,0 +1,112 @@
+[
+  {
+    "startDate": "December 2024",
+    "title": "Became a father for the second time",
+    "description": "A healthy and strong little brother",
+    "type": "event"
+  },
+  {
+    "title": "Test Engineer, Sopra Steria",
+    "startDate": "September 2023",
+    "endDate": "Present",
+    "description": "Consultant for Telenet; Java test automation and manual testing. ISTQB & Agile certified, Cucumber, Selenium, API testing.",
+    "type": "work"
+  },
+  {
+    "title": "Django Developer, Omina Technology",
+    "startDate": "February 2023",
+    "endDate": "September 2023",
+    "description": "Responsible for client Django app, frontend focus. Figma & Framer UX design, HTMX, JavaScript, Bootstrap.",
+    "type": "work"
+  },
+  {
+    "title": "Full Stack Developer, Claude Bernard University",
+    "startDate": "June 2022",
+    "endDate": "January 2023",
+    "description": "Django app: GUI & automatization of complex data input to XML. Django app: setup of geology database & GUI; pictures, tables, maps.",
+    "type": "work"
+  },
+  {
+    "startDate": "May 2020",
+    "title": "Became a father",
+    "description": "A wonderful boy in the middle of the first Covid lockdown",
+    "type": "event"
+  },
+  {
+    "title": "Process Manager, Voi Technology",
+    "startDate": "January 2020",
+    "endDate": "August 2020",
+    "description": "Standardised the repair processes for all Voi warehouses in France. Implemented and adapted repair software. Conducted local seminars.",
+    "type": "work"
+  },
+  {
+    "title": "Vehicle Operation Specialist, Voi Technology",
+    "startDate": "June 2019",
+    "endDate": "January 2020",
+    "description": "Logistics, diagnostics, technical repairs, deployment, and collection. Team leader: close collaboration with warehouse manager & city operations specialist.",
+    "type": "work"
+  },
+  {
+    "title": "Content Manager, Lyreco",
+    "startDate": "January 2018",
+    "endDate": "October 2018",
+    "description": "Responsible for Scandinavian web content, digital transformation role. Project leader for large-scale product update: 13,000+ products.",
+    "type": "work"
+  },
+  {
+    "title": "Product Assistant, Lyreco",
+    "startDate": "July 2017",
+    "endDate": "December 2017",
+    "description": "Product documentation, full update of 2018 catalogue. Implemented new improved photo standard involving 200+ suppliers.",
+    "type": "work"
+  },
+  {
+    "title": "Market Analyst Intern, Kursus & Tema",
+    "startDate": "January 2017",
+    "endDate": "March 2017",
+    "description": "Market analysis, Google Analytics setup, SEO analysis, customer database creation, Google and Facebook campaigns.",
+    "type": "internship"
+  },
+  {
+    "title": "Communication Intern, The Nordic Centre",
+    "startDate": "September 2013",
+    "endDate": "January 2014",
+    "description": "Wrote Q3 2013 newsletter, communication with member universities, presentations to visitors, promotional materials.",
+    "type": "internship"
+  },
+  {
+    "title": "English Teacher, Epion",
+    "startDate": "January 2016",
+    "endDate": "October 2016",
+    "description": "27 weekly classes, kids aged 3-13. Responsible for assigning homework, testing, grading, and parent updates.",
+    "type": "work"
+  },
+  {
+    "title": "Guitar Teacher, Fudan High School",
+    "startDate": "September 2014",
+    "endDate": "December 2014",
+    "description": "Taught high school students in groups of 3-8, beginner to intermediate level. Focus on rhythm and group play.",
+    "type": "work"
+  },
+  {
+    "title": "Full Stack Software Development, Code Institute",
+    "startDate": "March 2021",
+    "endDate": "March 2022",
+    "description": "One-year e-commerce program focusing on Django web development.",
+    "type": "education"
+  },
+  {
+    "title": "Master’s in Culture, Communication & Globalization, Aalborg University",
+    "startDate": "September 2012",
+    "endDate": "June 2015",
+    "description": "Focus on cultural analysis, communication strategies, and globalization studies.",
+    "type": "education"
+  },
+  {
+    "title": "Bachelor’s in International Business Communication, Aalborg University",
+    "startDate": "September 2009",
+    "endDate": "June 2012",
+    "description": "Focus on business communication, linguistics, and intercultural studies.",
+    "type": "education"
+  }
+]
