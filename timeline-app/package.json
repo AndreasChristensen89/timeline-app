@@ -2,7 +2,7 @@
   "name": "timeline-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AndreasChristensen89/timeline-app",
+  "homepage": "https://AndreasChristensen89.github.io/timeline-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
