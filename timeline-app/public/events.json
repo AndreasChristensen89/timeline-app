@@ -1,0 +1,23 @@
+[
+    {
+      "startDate": "December 2024",
+      "title": "Became a father for the second time",
+      "description": "A healthy and strong lille brother",
+      "type": "event"
+    },
+    {
+      "startDate": "September 2023",
+      "endDate": "current",
+      "title": "Test Engineer, Sopra Steria, Brussels",
+      "description": "Consultant for Telenet; Java test automation and manual testing. ISTQB & Agile certified, Cucumber, Selenium, API testing",
+      "type": "work"
+    },
+    {
+      "startDate": "January 2023",
+      "endDate": "September 2023",
+      "title": "Django Developer, Omina Technology, Brussels",
+      "description": "Responsible for client Django app, frontend focus. Figma & Framer UX design, HTMX, JavaScript, Bootstrap",
+      "type": "work"
+    }
+  ]
+  
