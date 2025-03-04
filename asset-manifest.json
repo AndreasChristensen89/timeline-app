@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AndreasChristensen89/timeline-app/static/css/main.79d19d76.css",
-    "main.js": "/AndreasChristensen89/timeline-app/static/js/main.9b37112d.js",
+    "main.css": "/AndreasChristensen89/timeline-app/static/css/main.87c1109c.css",
+    "main.js": "/AndreasChristensen89/timeline-app/static/js/main.c338ba3f.js",
     "static/js/453.759128cd.chunk.js": "/AndreasChristensen89/timeline-app/static/js/453.759128cd.chunk.js",
     "index.html": "/AndreasChristensen89/timeline-app/index.html",
-    "main.79d19d76.css.map": "/AndreasChristensen89/timeline-app/static/css/main.79d19d76.css.map",
-    "main.9b37112d.js.map": "/AndreasChristensen89/timeline-app/static/js/main.9b37112d.js.map",
+    "main.87c1109c.css.map": "/AndreasChristensen89/timeline-app/static/css/main.87c1109c.css.map",
+    "main.c338ba3f.js.map": "/AndreasChristensen89/timeline-app/static/js/main.c338ba3f.js.map",
     "453.759128cd.chunk.js.map": "/AndreasChristensen89/timeline-app/static/js/453.759128cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79d19d76.css",
-    "static/js/main.9b37112d.js"
+    "static/css/main.87c1109c.css",
+    "static/js/main.c338ba3f.js"
   ]
 }
