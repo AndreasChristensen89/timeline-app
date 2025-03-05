@@ -1,28 +1,31 @@
 import React from "react";
+import "./TimelineEvent.css";
 
-function TimelineEvent({ event, cardWidth }) {
+const typeColors = {
+  event: "#FF6B6B",
+  work: "#4ECDC4",
+  internship: "#FFD166",
+  education: "#FF9F1C"
+};
+
+function TimelineEvent({ event, index }) {
+  const isLeft = index % 2 === 0;
+
   return (
-    <div className="d-flex" style={{ flexGrow: 1, minWidth: cardWidth, marginLeft: "20px" }}> {/* Ensure same-line layout */}
-      {/* Event Card */}
+    <div
+      className={`timeline-event ${isLeft ? "left" : "right"}`}
+    >
+      <div className="event-dot"></div>
       <div
-        className={`card shadow bg-${event.type} position-relative`}
-        style={{
-          width: cardWidth,
-          cursor: "pointer",
-          transition: "0.3s",
-        }}
+        className="event-card"
+        data-type={event.type}
+        style={{ backgroundColor: typeColors[event.type] || "#ffffff" }}
       >
-        <div className="card-body">
-          <h5 className="card-title">{event.title}</h5>
-          <p className="card-text mb-0">
-            {event.startDate} {event.endDate ? (event.endDate.toLowerCase() === "current" ? "- Present" : "- "+event.endDate) : ""}
-          </p>
-
-          {/* Details - Only show when hovered */}
-          <div className={`overflow-hidden mt-2`}>
-            <p className="card-text">{event.description}</p>
-          </div>
-        </div>
+        <h3>{event.title}</h3>
+        <p className="date">
+          {event.startDate} - {event.endDate || "Present"}
+        </p>
+        <p className={"description"}>{event.description}</p>
       </div>
     </div>
   );

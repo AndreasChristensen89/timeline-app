@@ -1,12 +1,14 @@
 import React from "react";
 import Timeline from "./components/Timeline";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <h1 className="title">Andreas Christensen CV</h1>
       <Timeline />
     </div>
   );
-};
+}
 
 export default App;

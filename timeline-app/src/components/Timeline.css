@@ -1,0 +1,15 @@
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.timeline-line {
+  position: absolute;
+  width: 4px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

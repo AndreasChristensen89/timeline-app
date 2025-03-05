@@ -1,0 +1,101 @@
+.timeline-event {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .timeline-event.left {
+    left: 0;
+    text-align: right;
+  }
+  
+  .timeline-event.right {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .event-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-event.left .event-dot {
+    right: -8px;
+  }
+  
+  .timeline-event.right .event-dot {
+    left: -8px;
+  }
+  
+  /* Modernized Card Style */
+  .event-card {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 380px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  /* Title */
+  .event-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Date */
+  .event-card .date {
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  /* Description (Hidden Initially) */
+  .description {
+    /* opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out; */
+    font-size: 0.95rem;
+  }
+  
+  /* Hover Effect - Expand Details */
+  /* .timeline-event:hover .description {
+    opacity: 1;
+    height: auto;
+  } */
+  
+  /* Hover Effect - Card Lifts Up */
+  .timeline-event:hover .event-card {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom Background Colors */
+  .event-card[data-type="event"] {
+    background-color: #ff6b6b;
+  }
+  
+  .event-card[data-type="work"] {
+    background-color: #4ecdc4;
+  }
+  
+  .event-card[data-type="internship"] {
+    background-color: #ffd166;
+  }
+  
+  .event-card[data-type="education"] {
+    background-color: #ff9f1c;
+  }
+  
